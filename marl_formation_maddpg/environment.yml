@@ -1,0 +1,17 @@
+name: marl
+channels: [conda-forge, defaults, pytorch]
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch
+      - pettingzoo[mpe]>=1.23.1
+      - supersuit>=3.9.0
+      - gymnasium>=0.28.1
+      - agilerl>=2.2.1
+      - numpy>=1.24
+      - matplotlib
+      - imageio
+      - pillow
+      - tqdm
+      - pyyaml
